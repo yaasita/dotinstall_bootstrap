@@ -1,0 +1,19 @@
+doctype html
+html[lang="ja"]
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    title
+      | Bootstrapの練習
+    link[href="css/bootstrap.min.css" rel="stylesheet"]
+  body
+    #header[class="container" style="background: red;"] header
+    .container
+      .row
+        .col-sm-3[class="hidden-xs" style="background: pink;"] Siede1
+        .col-sm-6[class="col-xs-6" style="background: green;"] Main
+        .col-sm-3[class="col-xs-6" style="background: orange;"] Siede2
+    #footer[class="container" style="background: blue;"] footer
+    script[src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"]
+    script[src="js/bootstrap.min.js"]
