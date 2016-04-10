@@ -1,0 +1,37 @@
+doctype html
+html[lang="ja"]
+  head
+    meta[charset="utf-8"]
+    meta[http-equiv="X-UA-Compatible" content="IE=edge"]
+    meta[name="viewport" content="width=device-width, initial-scale=1"]
+    title
+      | Bootstrapの練習
+    link[href="css/bootstrap.min.css" rel="stylesheet"]
+  body
+    .container[style="padding: 20px 0;"]
+      .btn-group
+        button[class="btn btn-primary dropdown-toggle" data-toggle="dropdown"]
+          | Action
+          span[class="caret"]
+        ul[class="dropdown-menu"]
+          li
+            a[href=""]  Action
+          li
+            a[href=""]  Action
+          li[class="divider"]
+          li
+            a[href=""]  Action
+      .btn-group
+        button[class="btn btn-primary"] Action
+        button[class="btn btn-primary dropdown-toggle" data-toggle="dropdown"]
+          span[class="caret"]
+        ul[class="dropdown-menu"]
+          li
+            a[href=""]  Action
+          li
+            a[href=""]  Action
+          li[class="divider"]
+          li
+            a[href=""]  Action
+    script[src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"]
+    script[src="js/bootstrap.min.js"]
